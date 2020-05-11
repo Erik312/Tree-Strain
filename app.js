@@ -6,7 +6,7 @@ function check(){
 
 	alert("loading");
 	var userinput = document.getElementById("user").value;
-	fetch(`https://strainapi.evanbusse.com/qGm5or2/strains/search/name/${userinput}`, {mode: 'cors'})
+	fetch(`https://strainapi.evanbusse.com/"your-api-key"/strains/search/name/${userinput}`, {mode: 'cors'})
     .then(function(response) {
       return response.json();
     })
